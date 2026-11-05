@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>รายงาน | BAIMAI LAMOON</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#f5f1e5;color:#40563d;font-family:Tahoma,sans-serif}
+header{
+    background-color:#345b3d;
+    background-image:url("images/logo-bg.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    color:#fff9e9;
+    text-align:center;
+    padding:60px 20px;
+}
+nav{background:#e3ead8;text-align:center;padding:13px;border-bottom:2px dashed #a4b58e}
+nav a{display:inline-block;color:#35583a;text-decoration:none;font-weight:bold;padding:11px 13px;margin:3px;border-radius:25px}
+nav a:hover,.active{background:#52794e;color:white}
+.container{max-width:1100px;margin:auto;padding:20px}
+.title{text-align:center;margin:35px 0}
+.title h2{color:#426443}
+.intro{background:#fffdf3;border:2px dashed #a5b58f;border-radius:20px;text-align:center;padding:25px;line-height:2;margin-bottom:30px}
+.table-box{background:#fffdf5;padding:20px;border:2px solid #d9e1ce;border-radius:20px;overflow-x:auto}
+table{width:100%;border-collapse:collapse;background:white}
+th,td{border:1px solid #cbd8c0;padding:16px;text-align:center}
+th{background:#557b53;color:white}
+tr:nth-child(even){background:#f0f4e9}
+.total{background:#dfead6!important;font-weight:bold;color:#315b3b}
+.summary{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin-top:25px}
+.summary-card{background:#e5eadb;border:2px dashed #b1c09f;border-radius:18px;text-align:center;padding:20px}
+.summary-card h3{font-size:17px}
+.summary-card p{font-size:22px;font-weight:bold;color:#b66c36}
+.note{background:#fffdf3;border-radius:20px;padding:25px;text-align:center;margin-top:30px;line-height:2}
+footer{background:#345b3d;color:#fff9e9;text-align:center;padding:25px;line-height:1.9;border-top:7px solid #c7d4ae;margin-top:40px}
+@media(max-width:700px){.summary{grid-template-columns:1fr}header h1{font-size:29px}th,td{padding:10px 5px}}
+.menu-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 10px;
+    background: #fff0d8;
+}
+
+.menu-images a {
+    display: inline-block;
+    transition: 0.2s;
+}
+
+.menu-images img {
+    width: 120px;
+    height: 45px;
+    object-fit: contain;
+    display: block;
+}
+
+.menu-images a:hover {
+    transform: translateY(-3px);
+}
+</style>
+</head>
+<body>
+<header>
+<h1>🌿 BAIMAI LAMOON</h1>
+<p>ใบไม้ละมุน</p>
+<p>✿ PLANT INFORMATION ✿</p>
+</header>
+<nav>
+<a href="index.html">
+
+        <img src="images/home.png" alt="หน้าหลัก"width=" 200" height=" 150">
+
+    </a>
+
+
+
+    <a href="plants.html">
+
+        <img src="images/plants.png" alt="รายการต้นไม้"width=" 200" height=" 150">
+
+    </a>
+
+
+    <a href="recommend.html">
+
+        <img src="images/recommend.png" alt="ต้นไม้แนะนำ"width=" 200" height=" 150">
+
+    </a>
+
+
+    <a href="contact.html">
+
+        <img src="images/contact.png" alt="ติดต่อเรา"width=" 200" height=" 150">
+
+    </a>
+
+  <a href="report.html">
+
+        <img src="images/report.png" alt="รายงาน"width=" 200" height=" 150">
+
+    </a>
+
+</nav> 
+
+<div class="container">
+<div class="title">
+<h2>📊 PLANT PRODUCT REPORT</h2>
+<p>รายงานข้อมูลสินค้าและราคาต้นไม้</p>
+</div>
+
+<div class="intro">
+<h3>🌱 รายงานข้อมูลร้านใบไม้ละมุน 🌱</h3>
+<p>แสดงรายการต้นไม้ประดับที่จำหน่ายภายในร้าน พร้อมรายละเอียดประเภทสินค้าและราคาจำหน่าย</p>
+<p>ข้อมูลรายงานสินค้าเบื้องต้นของร้าน</p>
+</div>
+
+<div class="table-box">
+<table>
+<tr>
+<th>ลำดับ</th>
+<th>ชื่อสินค้า</th>
+<th>ประเภท</th>
+<th>ราคา</th>
+</tr>
+<tr>
+<td>1</td>
+<td>มอนสเตอร่า</td>
+<td>ไม้ใบประดับ</td>
+<td>250 บาท</td>
+</tr>
+<tr>
+<td>2</td>
+<td>ลิ้นมังกร</td>
+<td>ไม้ประดับ</td>
+<td>120 บาท</td>
+</tr>
+<tr>
+<td>3</td>
+<td>ยางอินเดีย</td>
+<td>ไม้ใบประดับ</td>
+<td>180 บาท</td>
+</tr>
+<tr>
+<td>4</td>
+<td>พลูด่าง</td>
+<td>ไม้เลื้อยประดับ</td>
+<td>60 บาท</td>
+</tr>
+<tr>
+<td>5</td>
+<td>FLOWERING PLANTS</td>
+<td>ไม้ดอก</td>
+<td>200 บาท</td>
+</tr>
+<tr class="total">
+<td colspan="3">ราคารวมทั้งหมด</td>
+<td>810 บาท</td>
+</tr>
+</table>
+</div>
+
+<div class="title">
+<h2>🌼 PRODUCT SUMMARY 🌼</h2>
+<p>สรุปข้อมูลสินค้าภายในร้าน</p>
+</div>
+
+<div class="summary">
+<div class="summary-card">
+<h3>🍃 จำนวนสินค้า</h3>
+<p>4 ชนิด</p>
+</div>
+<div class="summary-card">
+<h3>💰 ราคาสูงสุด</h3>
+<p>250 บาท</p>
+</div>
+<div class="summary-card">
+<h3>🌱 ราคาต่ำสุด</h3>
+<p>60 บาท</p>
+</div>
+</div>
+
+<div class="note">
+<h3>🍃 สรุปรายงานสินค้า</h3>
+<p>ร้านใบไม้ละมุนมีสินค้าต้นไม้ประดับทั้งหมด 5 สายพันธุ์</p>
+<p>มีราคารวมของสินค้าทั้งหมด 810 บาท</p>
+<p>สินค้าแต่ละชนิดมีราคาแตกต่างกันตามประเภทและลักษณะของต้นไม้</p>
+<p>🌿 ขอบคุณที่เยี่ยมชมร้านใบไม้ละมุน 🌿</p>
+</div>
+</div>
+
+<footer>
+<h3>🌿 BAIMAI LAMOON</h3>
+<p>ร้านใบไม้ละมุน | รายงานข้อมูลสินค้า</p>
+<p>© 2026 BAIMAI LAMOON</p>
+</footer>
+</body>
+</html>
